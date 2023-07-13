@@ -1,0 +1,33 @@
+package giris;
+import java.sql.SQLOutput;
+import java.util.Scanner;
+public class class3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int bolenler;
+        for (int i = 1 ; i<=100; i++){
+            bolenler = 0;
+            for (int a = 1;a<=i;a++){
+                if (i % a == 0){
+
+                    bolenler = bolenler+a;
+
+
+                }
+
+                }if (bolenler == i+1){
+                System.out.println(i+" sayısı asal sayıdır.");
+
+
+
+                }
+
+
+            }
+
+
+
+        }
+            }
+
